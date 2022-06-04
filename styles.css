@@ -1,0 +1,212 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: wheat;
+}
+
+* {
+    font-family: 'Macondo', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: skyblue;
+    width: 98%;
+    box-shadow: 0 0 1em;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.menu-tittle {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.menu-logo {
+    width: 120px;
+    margin-left: 2em;
+}
+
+
+.datos {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0 2em;
+    gap: 1rem;
+    justify-content: space-between;
+
+}
+
+.dato {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+
+
+}
+
+.dato:hover {
+
+    text-decoration: none;
+    text-shadow: 0 0 8px #FF0000;
+    transition: 0.5s;
+}
+
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 2rem 2rem;
+    box-shadow: 0 0 1em;
+}
+
+.welcome1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(148, 235, 200, 1) 0%, rgba(147, 250, 241, 1) 100%);
+    width: 60%;
+    gap: 2rem;
+    padding: 5rem 0;
+
+
+}
+
+.welcome1-tittle {
+    font-size: 50px;
+    margin: auto;
+}
+
+.welcome1-btn {
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    font-size: 23px;
+}
+
+.welcome1-btn:hover {
+    background: greenyellow;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.welcome2 {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    width: 40%;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 3rem;
+
+}
+
+.welcome2-tittle {
+    text-align: center;
+    font-size: 30px;
+}
+
+.welcome2-social {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 30px;
+}
+
+.welcome2-extra {
+    text-align: center;
+
+    color: #787878
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+
+    gap: 2rem;
+    margin: 3rem;
+}
+
+.form-name {
+    width: 30%;
+}
+
+.form-name1 {
+    margin-left: 1rem;
+    display: inline;
+
+}
+
+.fa-solid {
+    display: inline;
+}
+
+.welcome2-btn {
+    margin: 3rem;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    font-size: 23px;
+}
+.welcome2-btn:hover{
+background: greenyellow;
+transition: 1s;
+cursor: pointer;
+}
+
+.foter {
+    background: #BAB6B6;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 2rem 2rem;
+    padding: 0 2rem;
+    box-shadow: 0 0 1em;
+}
+
+
+.partFooter {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10rem;
+}
+
+.partFooter-tittle {
+    font-size: 30px;
+    padding: 2rem 0 ;
+    text-decoration: underline double gray;
+    
+}
+
+.social-media {
+    display: flex;
+    gap: 1rem;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+
+
+
+.lorem {
+    padding: 2rem;
+}
